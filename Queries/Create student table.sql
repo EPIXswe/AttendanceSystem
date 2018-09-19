@@ -1,0 +1,6 @@
+CREATE TABLE Users (
+	fname 	VARCHAR(20) NOT NULL, 
+	lname 	VARCHAR(20) NOT NULL, 
+	cardID 	VARCHAR(20),
+	PRIMARY KEY(cardID)
+);
