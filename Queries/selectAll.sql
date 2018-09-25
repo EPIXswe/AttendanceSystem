@@ -1,1 +1,1 @@
-select * from users, checkins
+select * from checkins
