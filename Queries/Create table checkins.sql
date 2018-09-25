@@ -1,7 +1,6 @@
 CREATE TABLE Checkins (
 	cardID VARCHAR(20),
 	checkDate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY(cardID),
-	PRIMARY KEY(checkDate)
+	PRIMARY KEY(cardID, checkDate),
     FOREIGN KEY(cardID) REFERENCES Users(cardID)
 );
